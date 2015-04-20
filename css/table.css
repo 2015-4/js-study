@@ -1,0 +1,21 @@
+table,tr,td{
+	padding:0;
+	margin:0;
+}
+table{
+	margin:0 auto;
+	width:500px;
+	border:1px solid green;
+}
+tr{
+	height:20px;	
+}
+.b-d{
+	font-size: 20px;
+}
+form{
+	width:260px;
+}
+form input{
+	margin-bottom: 1rem;
+}

@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+/* dialog
+-----------------------------------------------*/
+.rDialog{ position:fixed; _position:absolute;}
+.rDialog-wrap{ position:relative; background:#fff; background-clip:padding-box; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;}
+.rDialog-close{ display:block; position:absolute; right:0; top:0; z-index:1; width:36px; height:36px; background:url(icon-close.png) 13px 13px no-repeat; text-indent:-9999em; overflow:hidden;}
+.rDialog-header{ height:36px; padding:0 15px; font-size:14px; line-height:36px; background:#f0f0f0;}
+.rDialog-content{ padding:20px 15px; font-size:14px; overflow:hidden;}
+.rDialog-content p{ text-align: center;}
+.rDialog-footer{ text-align:center; padding-bottom: 15px;}
+.rDialog-footer a{ border:solid 1px #4eaccc;display:inline-block;width:127px;width:127px; text-align: center; height:32px; line-height:32px; font-size:14px; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;}
+.rDialog-footer a:link, .rDialog-footer a:visited, .rDialog-footer a:hover{ color:#fff; text-decoration:none;}
+.rDialog-footer a:last-of-type{ margin-left: 15px;}
+.rDialog-footer a:first-of-type{ margin-left: 0;}
+.rDialog-ok{ background:#4eaccc;}
+.rDialog-ok:hover{ background:#45a4c5;}
+.rDialog-footer a.rDialog-cancel{ color:#4eaccc;}
+.rDialog-footer a.rDialog-cancel:hover{border:solid 1px #45a4c5;color:#45a4c5;}
+.rDialog-mask{ position:fixed; _position:absolute; left:0; top:0; width:100%; height:100%; background:#000; filter:alpha(opacity=30); opacity:.3;}
+.rDialog-content input{ margin:10px 0 0 0;}
+.item-info{height: 35px;line-height: 35px;width: 100%;}
+/*.rDialog-ok{ background:#fc6710;}*/
+/*.rDialog-ok:hover{ background:#f05b02;}*/
+/*.rDialog-cancel{ background:#4eaccc;}*/
+/*.rDialog-cancel:hover{ background:#3C94B3;}*/
+.rDialog-content input{margin:0;}
+.rDialog-content input[type=text],
+.rDialog-content input[type=password]{padding:5px 0 5px 5px;}
+.item-info input[type=text] ,
+.item-info input[type=password] ,
+.item-info textarea,
+.item-info select {width:100%; float: left; font-size: 12px;}
+.font-fc { color: #fc6710;}
